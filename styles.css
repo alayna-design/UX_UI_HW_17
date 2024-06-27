@@ -9,13 +9,46 @@
 
 .nav-bar {
     background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.nav-links{ 
+    display:flex;
+    gap:3rem;
+    justify-content:center ;
+    
+    align-items: center;
+    color:navy;
+}
+
+.logo-section{
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-logo{
+    height: 10rem;
 }
 
 .history-section {
-    background-color: bisque;
-
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
+.history-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.history-text > *{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 .preview-section {
 background-color: beige;
