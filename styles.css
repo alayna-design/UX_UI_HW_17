@@ -1,0 +1,22 @@
+.grid-container {
+    height: 100vh;
+    display: grid;
+
+    grid-template-rows: .7fr 2fr 3fr;
+
+    background-color: grey;
+}
+
+.nav-bar {
+    background-color: white;
+}
+
+.history-section {
+    background-color: bisque;
+
+}
+
+
+.preview-section {
+background-color: beige;
+}
