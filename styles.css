@@ -1,9 +1,11 @@
+body{
+    margin: 0;
+}
+
+
 .grid-container {
-    height: 100vh;
     display: grid;
-
     grid-template-rows: .7fr 2fr 3fr;
-
     background-color: grey;
 }
 
@@ -15,19 +17,16 @@
 
 .nav-links{ 
     display:flex;
-    gap:3rem;
-    justify-content:center ;
-    
+    justify-content: space-around ;
     align-items: center;
-    color:navy;
+    color: navy;
+    padding-left: 40px;
 }
 
 .logo-section{
     display:flex;
-
     justify-content: center;
     align-items: center;
-
 }
 
 .header-logo{
@@ -37,19 +36,108 @@
 .history-section {
     background-color:white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    border: solid 2px black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 32px;
 }
 
 .history-text{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
 }
 .history-text > *{
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
+.history-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-pic > img {
+    height: 400px;
+    width: 400px;
+}
+
 .preview-section {
-background-color: beige;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.preview-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.preview-item > img{
+    width: 250px;
+    height:250px;
+    margin-bottom: 16px;
+}
+
+.preview-link {
+    background-color: #074186;
+    color:white;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+footer {
+   background-color: #074186; 
+   display: grid; 
+   
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr .2fr;
+    margin-top: 32px;
+}
+
+.footer-content > div {
+    color: white;
+    padding: 32px;
+}
+
+.left-divider {
+    border: solid 2px white;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    }
+
+.last-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-social {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
