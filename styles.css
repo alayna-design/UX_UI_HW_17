@@ -141,3 +141,27 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 1000px) {
+    .history-text{
+        font-size: 1.7rem;
+    }
+    .preview-item > img{
+        width: 420px;
+        height:420px;
+        margin-bottom: 16px;
+    }
+    
+    .preview-link {
+        background-color: #074186;
+        color:white;
+        width: 420px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+    }
+
+
+}
