@@ -140,6 +140,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.light-navy{
+    background-color: #0b5bbc;
+}
+.light-text{
+    color:#0b5bbc; 
 }
 
 @media (min-width: 1000px) {
@@ -170,5 +178,10 @@ footer {
         padding-left: 40px;
         font-size:20px ;
     }
- 
+    .light-navy{
+        background-color: #0b5bbc;
+    }
+    .light-text{
+        color:#0b5bbc; 
+    }
 }
