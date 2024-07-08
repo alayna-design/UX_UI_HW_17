@@ -175,6 +175,29 @@ footer {
    margin-top: 32px;
 }
 
+.pieflavor-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    color: #074186;
+    background-color: white;
+}
+.flavor-list{
+    color: black;
+}
+
+.pieprice-section{
+    color: black;
+    list-style-type: none;
+}
+
+.piepic-section{
+    display: flex;
+    word-wrap: break-word;
+   
+}
+
+
 @media (min-width: 1000px) {
     .history-text{
         font-size: 1.7rem;
