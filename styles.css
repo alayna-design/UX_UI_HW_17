@@ -283,7 +283,7 @@ footer {
         color:#0b5bbc; 
     }
     .piepic-section > div > img{
-       
+       max-width: 300px;
         }
 
         .pieflavor-img > img{
