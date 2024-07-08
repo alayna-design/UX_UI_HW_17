@@ -182,6 +182,17 @@ footer {
     color: #074186;
     background-color: white;
 }
+
+.pieflavor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pieflavor-img > img{
+    width: 470px;
+}
+
 .flavor-list{
     color: black;
 }
@@ -193,8 +204,16 @@ footer {
 
 .piepic-section{
     display: flex;
-    word-wrap: break-word;
-   
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+.piepic-section > div > img{
+width: 180px;
+height: 180px;
 }
 
 
@@ -232,4 +251,20 @@ footer {
     .light-text{
         color:#0b5bbc; 
     }
+    .piepic-section > div > img{
+        width: 320px;
+        height: 320px;
+        }
+
+        .pieflavor-img > img{
+            width: 650px;
+        }
+
+        .pieflavor-text{
+            font-size: 25px;
+        }
+
+        .preorder-section{
+            font-size: 20px;
+        }
 }
