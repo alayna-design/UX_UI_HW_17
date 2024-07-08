@@ -175,6 +175,7 @@ footer {
     text-align: center;
     color:#074186;
     background-color: white;
+    display: flex;
 }
 .preorder-section > ol{
     color: black;
