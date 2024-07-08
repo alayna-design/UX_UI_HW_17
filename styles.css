@@ -9,6 +9,12 @@ body{
     background-color: grey;
 }
 
+.grid-container-pies {
+    display: grid;
+    grid-template-rows: .7fr 2fr 3fr 2fr;
+    background-color: grey;
+}
+
 .nav-bar {
     background-color: white;
     display: grid;
@@ -148,6 +154,25 @@ footer {
 }
 .light-text{
     color:#0b5bbc; 
+}
+
+.preorder-section{
+    text-align: center;
+    color:#074186;
+    background-color: white;
+}
+.preorder-section > ol{
+    color: black;
+    list-style-position: inside;
+    text-align: center;
+}
+.preorder-section > a{
+    text-align: center;
+    color: white;
+    background-color: #074186;
+   padding: 8px 16px 8px 16px;
+   border-radius: 4px;
+   margin-top: 32px;
 }
 
 @media (min-width: 1000px) {
